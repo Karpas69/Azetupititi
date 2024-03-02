@@ -1,4 +1,4 @@
-local library = sharedRequire('../UILibrary.lua');
+local library = sharedRequire('loadstring(game:HttpGet("https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/UILibrary.lua");
 local Services = sharedRequire('../utils/Services.lua');
 local Maid = sharedRequire('../utils/Maid.lua');
 local Utility = sharedRequire('../utils/Utility.lua');
