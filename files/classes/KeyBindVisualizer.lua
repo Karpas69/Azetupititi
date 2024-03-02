@@ -1,6 +1,6 @@
-local Services = sharedRequire('@utils/Services.lua');
+local Services = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Services.lua');
 local UserInputService = Services:Get('UserInputService');
-local Maid = sharedRequire('@utils/Maid.lua');
+local Maid = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/utils/Maid.lua');
 
 local keybindVisualizer = {};
 keybindVisualizer.__index = keybindVisualizer;
