@@ -10,9 +10,9 @@ local KeyBindVisualizer = sharedRequire('https://raw.githubusercontent.com/Karpa
 
 local CoreGui, Players, RunService, TextService, UserInputService, ContentProvider, HttpService, TweenService, GuiService, TeleportService = Services:Get('CoreGui', 'Players', 'RunService', 'TextService', 'UserInputService', 'ContentProvider', 'HttpService', 'TweenService', 'GuiService', 'TeleportService');
 
-local toCamelCase = sharedRequire('');
+local toCamelCase = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/utils/toCamelCase.lua');
 local Maid = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/utils/Maid.lua');
-local ToastNotif = sharedRequire('');
+local ToastNotif = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/classes/ToastNotif.lua');
 
 local LocalPlayer = Players.LocalPlayer;
 local visualizer;
