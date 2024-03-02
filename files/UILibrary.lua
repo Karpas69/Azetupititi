@@ -6,7 +6,7 @@ local libraryLoadAt = tick();
 
 local Signal = sharedRequire('loadstring(game:HttpGet("https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Signal.lua"))()');
 local Services = sharedRequire('loadstring(game:HttpGet("https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Services.lua"))()');
-local KeyBindVisualizer = sharedRequire('loadstring(game:HttpGet(""))()');
+local KeyBindVisualizer = sharedRequire('loadstring(game:HttpGet("https://github.com/Karpas69/Azetupititi/blob/main/files/classes/KeyBindVisualizer.lua"))()');
 
 local CoreGui, Players, RunService, TextService, UserInputService, ContentProvider, HttpService, TweenService, GuiService, TeleportService = Services:Get('CoreGui', 'Players', 'RunService', 'TextService', 'UserInputService', 'ContentProvider', 'HttpService', 'TweenService', 'GuiService', 'TeleportService');
 
