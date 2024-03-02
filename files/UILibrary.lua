@@ -4,15 +4,15 @@ SX_VM_CNONE();
 
 local libraryLoadAt = tick();
 
-local Signal = sharedRequire('loadstring(game:HttpGet("https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Signal.lua"))()');
-local Services = sharedRequire('loadstring(game:HttpGet("https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Services.lua"))()');
-local KeyBindVisualizer = sharedRequire('loadstring(game:HttpGet("https://github.com/Karpas69/Azetupititi/blob/main/files/classes/KeyBindVisualizer.lua"))()');
+local Signal = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Signal.lua');
+local Services = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Services.lua');
+local KeyBindVisualizer = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/classes/KeyBindVisualizer.lua');
 
 local CoreGui, Players, RunService, TextService, UserInputService, ContentProvider, HttpService, TweenService, GuiService, TeleportService = Services:Get('CoreGui', 'Players', 'RunService', 'TextService', 'UserInputService', 'ContentProvider', 'HttpService', 'TweenService', 'GuiService', 'TeleportService');
 
-local toCamelCase = sharedRequire('loadstring(game:HttpGet(""))()');
-local Maid = sharedRequire('loadstring(game:HttpGet("https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Maid.lua"))()');
-local ToastNotif = sharedRequire('loadstring(game:HttpGet(""))()');
+local toCamelCase = sharedRequire('');
+local Maid = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Maid.lua');
+local ToastNotif = sharedRequire('');
 
 local LocalPlayer = Players.LocalPlayer;
 local visualizer;
