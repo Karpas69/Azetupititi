@@ -1,8 +1,9 @@
-local library = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/UILibrary.lua"))()');
-local Services = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Services.lua');
+wait(1)
+local library = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/UILibrary.lua');
+local Services = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/blob/main/files/utils/Services.lua');
 local Maid = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/utils/Maid.lua');
-local Utility = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Utility.lua');
-local ToastNotif = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/classes/ToastNotif.lua');
+local Utility = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/blob/main/files/utils/Utility.lua');
+local ToastNotif = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/blob/main/files/classes/ToastNotif.lua');
 
 local ReplicatedStorage, RunService, Players, VirtualInputManager, CollectionService, MarketplaceService, Stats = Services:Get('ReplicatedStorage', 'RunService', 'Players', 'VirtualInputManager', 'CollectionService', 'MarketplaceService', 'Stats');
 local column1, column2 = unpack(library.columns);
