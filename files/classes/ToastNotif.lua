@@ -1,6 +1,6 @@
-local Services = sharedRequire('@utils/Services.lua');
-local Maid = sharedRequire('@utils/Maid.lua');
-local Signal = sharedRequire('@utils/Signal.lua');
+local Services = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Services.lua');
+local Maid = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/utils/Maid.lua');
+local Signal = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Signal.lua');
 
 local TweenService, UserInputService = Services:Get('TweenService', 'UserInputService');
 
