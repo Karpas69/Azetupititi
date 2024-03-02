@@ -1,7 +1,7 @@
-local Utility = sharedRequire('@utils/Utility.lua');
-local createBaseESP = sharedRequire('@utils/createBaseESP.lua');
-local library = sharedRequire('@UILibrary.lua');
-local toCamelCase = sharedRequire('@utils/toCamelCase.lua');
+local Utility = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Utility.lua');
+local createBaseESP = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/utils/createBaseESP.lua');
+local library = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/UILibrary.lua');
+local toCamelCase = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/utils/toCamelCase.lua');
 
 local sectionIndex = 1;
 local addedESPSearch = false;
