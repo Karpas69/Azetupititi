@@ -11,7 +11,7 @@ local KeyBindVisualizer = sharedRequire('loadstring(game:HttpGet("https://github
 local CoreGui, Players, RunService, TextService, UserInputService, ContentProvider, HttpService, TweenService, GuiService, TeleportService = Services:Get('CoreGui', 'Players', 'RunService', 'TextService', 'UserInputService', 'ContentProvider', 'HttpService', 'TweenService', 'GuiService', 'TeleportService');
 
 local toCamelCase = sharedRequire('loadstring(game:HttpGet(""))()');
-local Maid = sharedRequire('loadstring(game:HttpGet(""))()');
+local Maid = sharedRequire('loadstring(game:HttpGet("https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Maid.lua"))()');
 local ToastNotif = sharedRequire('loadstring(game:HttpGet(""))()');
 
 local LocalPlayer = Players.LocalPlayer;
