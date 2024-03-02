@@ -4,14 +4,14 @@ SX_VM_CNONE();
 
 local libraryLoadAt = tick();
 
-local Signal = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Signal.lua');
-local Services = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Services.lua');
-local KeyBindVisualizer = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/classes/KeyBindVisualizer.lua');
+local Signal = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/blob/main/files/utils/Signal.lua');
+local Services = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/blob/main/files/utils/Services.lua');
+local KeyBindVisualizer = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/classes/KeyBindVisualizer.lua');
 
 local CoreGui, Players, RunService, TextService, UserInputService, ContentProvider, HttpService, TweenService, GuiService, TeleportService = Services:Get('CoreGui', 'Players', 'RunService', 'TextService', 'UserInputService', 'ContentProvider', 'HttpService', 'TweenService', 'GuiService', 'TeleportService');
 
 local toCamelCase = sharedRequire('');
-local Maid = sharedRequire('https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Maid.lua');
+local Maid = sharedRequire('https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/utils/Maid.lua');
 local ToastNotif = sharedRequire('');
 
 local LocalPlayer = Players.LocalPlayer;
