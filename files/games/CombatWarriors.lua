@@ -1,8 +1,8 @@
 local library = sharedRequire('loadstring(game:HttpGet("https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/UILibrary.lua"))()');
-local Services = sharedRequire('../utils/Services.lua');
-local Maid = sharedRequire('../utils/Maid.lua');
-local Utility = sharedRequire('../utils/Utility.lua');
-local ToastNotif = sharedRequire('../classes/ToastNotif.lua');
+local Services = sharedRequire('loadstring(game:HttpGet(""))()');
+local Maid = sharedRequire('loadstring(game:HttpGet(""))()');
+local Utility = sharedRequire('loadstring(game:HttpGet(""))()');
+local ToastNotif = sharedRequire('loadstring(game:HttpGet(""))()');
 
 local ReplicatedStorage, RunService, Players, VirtualInputManager, CollectionService, MarketplaceService, Stats = Services:Get('ReplicatedStorage', 'RunService', 'Players', 'VirtualInputManager', 'CollectionService', 'MarketplaceService', 'Stats');
 local column1, column2 = unpack(library.columns);
