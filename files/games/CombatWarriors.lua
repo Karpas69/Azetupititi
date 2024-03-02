@@ -1,6 +1,6 @@
 local library = sharedRequire('loadstring(game:HttpGet("https://raw.githubusercontent.com/Karpas69/Azetupititi/main/files/UILibrary.lua"))()');
 local Services = sharedRequire('loadstring(game:HttpGet(""))()');
-local Maid = sharedRequire('loadstring(game:HttpGet(""))()');
+local Maid = sharedRequire('loadstring(game:HttpGet("https://github.com/Karpas69/Azetupititi/blob/main/files/utils/Maid.lua"))()');
 local Utility = sharedRequire('loadstring(game:HttpGet(""))()');
 local ToastNotif = sharedRequire('loadstring(game:HttpGet(""))()');
 
